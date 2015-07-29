@@ -1,0 +1,2 @@
+#!/bin/bash
+docker run -ti --rm -v $(pwd)/start.sh:/start.sh -e MASTER=172.17.0.24 philipz/emqtt bash
